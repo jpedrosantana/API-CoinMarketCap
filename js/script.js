@@ -2,7 +2,7 @@
 
 //API Key
 var apikey = {
-    key: '377355fe-1da4-4cc5-8ec4-2e696a34f286'
+    key: 'INSIRA_SUA_API_KEY'
 }
 
 function dataAnoMesDia(data){
@@ -17,7 +17,6 @@ fetch("https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY="
         return response.json();
     })
     .then((api) => {
-        //console.log(api);
 
         var texto = '';
         //Obtem as 10 primeiras moedas
